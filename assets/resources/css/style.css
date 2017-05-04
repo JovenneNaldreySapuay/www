@@ -30,7 +30,7 @@ span.city-text {
 	width:100%;
 	height:100%;
 	position:fixed;
-	background:#E8432E;
+	background:#000;
 }
 
 .hero-area {
@@ -47,7 +47,7 @@ span.city-text {
 .hero-text { 
     padding:200px 0 0 0;
     min-height:215px;
-    color:#fff;
+    color:#f39c12;
     font-size:2.2em;
     text-shadow:0px 1px 2px #333;
     text-align:center;
@@ -60,7 +60,7 @@ span.city-text {
 }
 
 .hero-text .aym {
-    color: #333;
+    color: #ecf0f1;
 }
 
 .tagline, .text {
@@ -70,7 +70,8 @@ span.city-text {
 .tagline{
     margin:20px 0 0;
     font-size:1.7em;
-    font-weight:bold;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
     -webkit-transition:all 0.7s ease-in-out;
     -moz-transition:all 0.7s ease-in-out;
     -o-transition:all 0.7s ease-in-out;
@@ -80,10 +81,11 @@ span.city-text {
 
 .sub-tagline {
     margin:0;
-    font-size:.7em;
+    font-size:.6em;
     font-weight:normal;
     text-transform:lowercase;
     opacity:0;
+    color: #fff;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter:alpha(opacity=0);    
     -webkit-transition:all 0.7s ease-in-out;
